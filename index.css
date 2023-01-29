@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+    border: 4px solid black;
+    background-image: -moz-repeating-radial-gradient();
+}
+.container{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    font-size: large;
+}
+h1{
+    padding-left: 50px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrapper{
+    margin: 1.25rem 1.75rem;
+}
+.inputext input{
+    width: 100%;
+    height: 34.5px;
+    font-size: 1.5rem;
+    border: 1px solid black;
+}
+.pass-length{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.pass-length .details{
+    display: flex;
+    
+    
+    justify-content: space-between;
+    font-weight: 300;
+}
+#length{
+    width: 100%;
+    height: 5px;
+    
+}
+
+.password-settings .options{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    
+}
+.password-settings .options .options{
+    display: flex;  
+    width: 100%;
+}
+
+
+
+.password-settings label{
+    font: bold;
+    font-weight: 300;
+}
+.pas{
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title{
+    font-size: larger;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.options{
+    font-size: larger;
+    font-weight: 200;
+    
+}
+.button{
+    width: 100%;
+    height: 50px;
+    font-size: x-large;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: aqua;
+    
+}
+
+    
